@@ -1,0 +1,244 @@
+/* rule */
+/* selector */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'monteserrat';
+    margin: 0%;
+}
+
+.main-header{
+    width: 100%;
+    background: #2ddf5c;
+    padding: 8px 16px;
+}
+
+.main-nav__item{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.main-nav__item a{
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0px;
+}
+.main-nav__item__cta a{
+    color: white;
+    background: #ff1b68;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+
+.main-header > div{
+    display: inline-block;
+}
+.main-nav{
+    display: inline-block;
+    width: 90%;
+    text-align: right;
+   
+}
+.main-nav__items{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    
+}
+
+.main-header__brand{
+    text-decoration: none;
+    color: #0e4f1f;
+    font: bold;
+   
+}
+
+
+/* .main-nav__item,.main-header > div,.main-nav{
+    display: inline-block;
+} */
+
+
+
+#product-overview{
+    /* background: #ff1B68; */
+    background-image: url(FREEDOM.JPG);
+    background-size: 100%;
+    width: 100%;
+    height: 525px;
+    padding: 20px;
+    /* border: 5px black solid; */
+    
+    /* margin: 20px; */
+    /* height: 100%; */
+}
+
+#product-overview h1{
+
+    color:white;
+    font-family: 'Anton',sans-serif;
+}
+
+.section-title{
+    color: #2ddf5c;
+}
+
+.plan{
+    background: #d5ffdc;
+    text-align: center;
+    padding: 5px;
+    margin: 8px;
+    display: inline-block;
+    width: 31%;
+}
+
+.section-title{
+    text-align: center;
+}
+
+/* .plan__list */
+
+.plan--highlighted {
+    background: #19b84c;
+    color: white;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.plan__annotation{
+    background: white;
+    color: green;
+    padding: 5px;
+    box-shadow: 5px 5px 2px 1px grey;
+    border-radius: 10px;
+}
+
+.plan__features{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+.plan__feature{
+    padding: 10px 0px;
+}
+.plan__title,.plan--highlighted .plan__price{
+    color: #0e4f1f;
+}
+.plan__price{
+    color: darkgray;
+}
+.plan--highlighted .plan__title{
+    color: white;
+}
+
+.button{
+    background: #0e4f1f;
+    color: white;
+    text-decoration: none;
+    font-family: 'monteserrat';
+    padding: 10px;
+    border: 5px;
+    border-radius: 5px;
+    font:bold;
+
+}
+
+#key-features{
+    background: #FF1B68;
+    padding: 20px;
+       margin-top: 20px;
+}
+#key-features .section-title{
+    color: white;
+}
+
+.key-feature__list{
+    list-style: none;
+    padding: 0;
+    margin: 0%;
+
+}
+
+.key-feature{
+    display: inline-block;
+    width: 33%;     
+    text-align: center;
+}
+
+.key-feature__description{
+    color: white;
+    font-weight: bold;
+   
+}
+
+.key-feature__image{
+    border: 2px solid #424242;
+    height: 0120px;
+    width: 120px;
+    background:white ;
+    border-radius: 50%;
+    margin: auto;
+}
+
+
+.plan__list button:hover{
+    background: white;
+    color: black;
+    border-bottom: 2px solid white;
+}
+
+.plan__list button:active{
+    color: black;
+    border-bottom: 2px solid white;
+    padding: 0%;
+    border: 0%;
+}
+
+.main-footer__link{
+    display: inline-block;
+
+}
+
+.main-footer__links {
+    background: #424242;
+    list-style: none;
+    padding: 0%;
+    border: 0%;
+    margin: 0%;
+    text-align: center;
+    
+    
+    
+}
+.main-footer__link a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+.main-footer__link a:hover,.main-footer__link a:active{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+
+
+.main-nav__item a:hover,.main-nav__item a:active{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.main-nav__item__cta a:hover,.main-nav__item__cta a:active{
+    color: #ff1b68;
+    background: white;
+    border:none;
+
+}
+
+
